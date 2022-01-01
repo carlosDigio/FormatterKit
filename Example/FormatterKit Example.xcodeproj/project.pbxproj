@@ -1742,7 +1742,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1320;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					504AB6A31DB332A800F6C09B = {
@@ -1910,10 +1910,9 @@
 			};
 			buildConfigurationList = F8FBF9DE1427A456001409DB /* Build configuration list for PBXProject "FormatterKit Example" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				ja,
 				ru,
@@ -1946,6 +1945,7 @@
 				hu,
 				ms,
 				bg,
+				Base,
 			);
 			mainGroup = F8FBF9D91427A456001409DB;
 			productRefGroup = F8FBF9E51427A456001409DB /* Products */;

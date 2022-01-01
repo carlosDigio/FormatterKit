@@ -24,52 +24,8 @@ Pod::Spec.new do |s|
     ss.source_files = 'FormatterKit/NSBundle+FormatterKit.{h,m}'
   end
 
-  s.subspec 'AddressFormatter' do |ss|
-    ss.source_files = 'FormatterKit/TTTAddressFormatter.{h,m}'
-    ss.dependency 'FormatterKit/Resources'
-    ss.osx.frameworks = 'AddressBook'
-    ss.ios.frameworks = 'AddressBook', 'AddressBookUI'
-  end
-
-  s.subspec 'ArrayFormatter' do |ss|
-    ss.source_files = 'FormatterKit/TTTArrayFormatter.{h,m}'
-    ss.dependency 'FormatterKit/Resources'
-  end
-
-  s.subspec 'ColorFormatter' do |ss|
-    ss.source_files = 'FormatterKit/TTTColorFormatter.{h,m}'
-    ss.dependency 'FormatterKit/Resources'
-  end
-
-  s.subspec 'LocationFormatter' do |ss|
-    ss.source_files = 'FormatterKit/TTTLocationFormatter.{h,m}'
-    ss.dependency 'FormatterKit/Resources'
-    ss.frameworks = 'CoreLocation'
-  end
-
-  s.subspec 'NameFormatter' do |ss|
-    ss.source_files = 'FormatterKit/TTTNameFormatter.{h,m}'
-    ss.dependency 'FormatterKit/Resources'
-    ss.ios.frameworks = 'AddressBook'
-  end
-
-  s.subspec 'OrdinalNumberFormatter' do |ss|
-    ss.source_files = 'FormatterKit/TTTOrdinalNumberFormatter.{h,m}'
-    ss.dependency 'FormatterKit/Resources'
-  end
-
   s.subspec 'TimeIntervalFormatter' do |ss|
     ss.source_files = 'FormatterKit/TTTTimeIntervalFormatter.{h,m}'
-    ss.dependency 'FormatterKit/Resources'
-  end
-
-  s.subspec 'UnitOfInformationFormatter' do |ss|
-    ss.source_files = 'FormatterKit/TTTUnitOfInformationFormatter.{h,m}'
-    ss.dependency 'FormatterKit/Resources'
-  end
-
-  s.subspec 'URLRequestFormatter' do |ss|
-    ss.source_files = 'FormatterKit/TTTURLRequestFormatter.{h,m}'
     ss.dependency 'FormatterKit/Resources'
   end
 end
