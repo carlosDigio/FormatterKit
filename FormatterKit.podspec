@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.description = "FormatterKit is a collection of well-crafted NSFormatter subclasses for things like units of information, distance, and relative time intervals. Each formatter abstracts away the complex business logic of their respective domain, so that you can focus on the more important aspects of your application."
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
   s.osx.deployment_target = '10.10'
   s.watchos.deployment_target = '2.0'
   s.tvos.deployment_target = '9.0'
